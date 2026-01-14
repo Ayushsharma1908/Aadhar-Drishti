@@ -1,20 +1,77 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Aadhar Drishti 🇮🇳  
+**A UIDAI Hackathon Project**
 
-# Run and deploy your AI Studio app
+Aadhar Drishti is a privacy-first, government-grade digital system focused on **Aadhaar data freshness, usability, and citizen awareness** — without accessing, storing, or displaying any personal or biometric data.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## 🎯 Problem Statement
 
-## Run Locally
+Many Aadhaar-linked services fail or get delayed due to:
+- Outdated demographic information
+- Lack of awareness about data freshness
+- No unified visibility for administrators
+- Poor citizen feedback loops
 
-**Prerequisites:**  Node.js
+Aadhar Drishti addresses this by providing **data freshness insights** and **actionable nudges**, while strictly complying with Indian data protection laws.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛡️ Privacy & Compliance
+
+This system is designed with **privacy-by-design** principles and strictly follows:
+
+- Aadhaar Act
+- DPDP Act (Digital Personal Data Protection Act)
+- Zero storage of personal or biometric data
+- No Aadhaar number, biometrics, or identity data exposed
+
+---
+
+## 🧩 System Architecture
+
+The platform consists of two panels:
+
+### 🔹 Admin / Government Dashboard
+- Aggregate Aadhaar data freshness metrics
+- Regional and service-level insights
+- Trend analysis & visualization
+- Policy-level decision support (no individual data)
+
+### 🔹 Citizen Panel
+- Awareness about Aadhaar data freshness
+- Guided update reminders (non-intrusive)
+- Service usability feedback
+- Transparency-first experience
+
+---
+
+## 🖥️ Tech Stack
+
+### Frontend
+- React + Vite
+- Tailwind CSS v4
+- TypeScript
+- Framer Motion
+- Recharts
+
+### Backend (Planned / Optional)
+- Node.js
+- Express
+- Secure API gateway
+- Government-grade logging & auditing
+
+---
+
+## 📁 Project Structure
+
+```text
+Aadhar-Drishti/
+│
+├── frontend/          # React + Vite frontend
+│   ├── src/
+│   ├── index.html
+│   └── package.json
+│
+├── README.md
+└── .gitignore
