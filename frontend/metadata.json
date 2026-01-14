@@ -1,0 +1,8 @@
+
+{
+  "name": "AADHAR Drishti",
+  "description": "A privacy-first national platform for Aadhaar data freshness and usability, featuring admin analytics and citizen guidance panels.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
